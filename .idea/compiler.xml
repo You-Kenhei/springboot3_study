@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-tlias" />
+        <module name="aliyun-oss-spring-boot-autoconfigure" />
+        <module name="aliyun-oss-spring-boot-starter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boot3-01-demo" target="17" />
+      <module name="boot3-02-demo" target="17" />
+      <module name="springboot-mybatis-crud" target="17" />
+      <module name="springboot-mybatis-quickstart" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-spring-boot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-spring-boot-starter" options="-parameters" />
+      <module name="boot3-01-demo" options="-parameters" />
+      <module name="boot3-02-demo" options="-parameters" />
+      <module name="springboot-mybatis-crud" options="-parameters" />
+      <module name="springboot-mybatis-quickstart" options="-parameters" />
+      <module name="springboot-tlias" options="-parameters" />
+    </option>
+  </component>
+</project>
