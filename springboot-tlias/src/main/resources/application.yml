@@ -20,7 +20,7 @@ server:
 
 aliyun:
   oss:
-    endpoint: https://oss-ap-northeast-1.aliyuncs.com
+    endpoint: yourURL
     accessKeyId: 1111111111
     accessKeySecret: 22222222222
     bucketName: 333333333
